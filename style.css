@@ -71,3 +71,39 @@ section.top_area {
 .social_top img {
     height: 22px;
 }
+section.nav_bar {
+    display: flex;
+}
+
+nav.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.logo h3 {
+    color: blue;
+    font-size: 35px;
+    padding: 15px 35px;
+    margin: 0px;
+}
+
+nav.navbar a {font-size: 20px;padding: 15px;text-decoration: none;}
+
+.appointment_btn a {
+    display: flex;
+    background: royalblue;
+    height: 55px;
+}
+
+.appointment_btn p {
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.appointment_btn img {
+    height: 25px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+nav.navbar {padding-left: 820px;}
