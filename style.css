@@ -112,6 +112,8 @@ section.main_area {display: flex;}
 
 .main_left {
     flex-basis: 50%;
+    background-color: #0463fa;
+    color: white;
 }
 
 .main_right {flex-basis: 50%;}
@@ -165,4 +167,85 @@ section.main_area {display: flex;}
     text-align: center;
     top: 390px;
     right: 180px;
+    color: white;
+}
+
+section.about_us_area {
+    display: flex;
+}
+
+.about_left {
+    flex-basis: 50%;
+    width: 50%;
+}
+
+.about_right {
+    flex-basis: 50%;
+    width: 50%;
+    margin-top: 90px;
+}
+
+.first_image img {
+    position: relative;
+    left: 250px;
+    height: 450px;
+    margin-top: 105px;
+}
+
+.second_image img {
+    border: white solid 15px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 160px;
+    height: 300px;
+    left: 100px;
+}
+
+.about_area_heading {
+    font-size: 25px;
+    color: gray;
+    border: gray solid 2px;
+    margin-right: 648px;
+    border-radius: 20px;
+}
+
+.about_area_heading p {
+    margin: 0px;
+    padding: 0px 20px;
+}
+
+.about_heading {
+    margin-top: 25px;
+    font-size: 28px;
+}
+
+.about_content {font-size: 20px;}
+
+.upper_text {
+    margin-top: 35px;
+}
+
+.lower-text {
+    margin-top: 35px;
+}
+
+.about_list ul {
+    list-style: none;
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+.about_list li {margin-top: 15px;}
+
+a.read_more_btn {
+    background-color: #0463fa;
+    text-decoration: none;
+    padding: 20px 50px;
+    color: #ffffff;
+    border-radius: 35px;
+    font-size: 18px;
+}
+
+.abt_btn {
+    margin-top: 45px;
 }
