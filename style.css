@@ -107,3 +107,62 @@ nav.navbar a {font-size: 20px;padding: 15px;text-decoration: none;}
 }
 
 nav.navbar {padding-left: 820px;}
+
+section.main_area {display: flex;}
+
+.main_left {
+    flex-basis: 50%;
+}
+
+.main_right {flex-basis: 50%;}
+
+.main_num {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.expert_doctors h3 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+.main_heading {
+    font-size: 35px;
+    padding: 0px 95px;
+    margin-top: 250px;
+}
+
+.expert_doctors p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.Medical_Stuff h3 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+.Medical_Stuff p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.Total_Patients h3 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+.Total_Patients p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.main_right img {width: 100%;}
+
+.main_right p {
+    font-size: 90px;
+    position: absolute;
+    text-align: center;
+    top: 390px;
+    right: 180px;
+}
