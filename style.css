@@ -249,3 +249,61 @@ a.read_more_btn {
 .abt_btn {
     margin-top: 45px;
 }
+
+.services_area_heading {
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+    border: gray solid 2px;
+    margin: 0px 722px;
+    border-radius: 20px;
+}
+
+.services_area_heading p {
+    margin: 0px;
+}
+
+.services_heading h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.services_content {
+    display: flex;
+}
+
+.about_content_items {
+    background-color: aqua;
+    padding: 39px 47px;
+    margin: 20px;
+}
+
+.service_img {
+    width: 65px;
+    height: 65px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_img img {
+    width: 25px;
+    height: 25px;
+}
+
+.service_btn {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_btn img {
+    width: 20px;
+    height: 20px;
+}
