@@ -307,3 +307,227 @@ a.read_more_btn {
     width: 20px;
     height: 20px;
 }
+
+.time p {
+    margin-top: 11px;
+}
+
+.about_content_items h3 {
+    font-size: 25px;
+}
+
+.about_content_items p {
+    font-size: 18px;
+}
+
+section.features_area {
+    display: flex;
+    margin-top: 70px;
+}
+
+.features_left {
+    flex-basis: 50%;
+    background-color: #0463fa;
+    padding-left: 65px;
+    color: white;
+}
+
+.features_right {
+    flex-basis: 50%;
+}
+
+.features_area_heading {
+    font-size: 20px;
+    color: white;
+    border: white solid 1px;
+    margin-right: 615px;
+    border-radius: 20px;
+    /* margin-left: 20px; */
+    margin-top: 119px;
+}
+
+.features_area_heading h4 {
+    margin: 0px 5px;
+}
+
+.feature_heading {
+    margin-top: 35px;
+    font-size: 28px;
+    color: white;
+}
+
+.features_paragraph {
+    padding-right: 78px;
+    font-size: 19px;
+    color: white;
+}
+
+.features_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features_item_img {
+    width: 65px;
+    height: 65px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features_item_img img {
+    width: 25px;
+    height: 25px;
+}
+
+.features_item {
+    display: flex;
+    width: 48%;
+    margin-top: 40px;
+}
+
+.features_item_content {
+    margin-left: 15px;
+}
+
+.features_item_content p {
+    margin: 0;
+    padding: 0px;
+    font-size: 17px;
+}
+
+.features_item_content h4 {margin: 15px 0px;font-size: 21px;}
+
+.doctors_area_heading {
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+    border: gray solid 2px;
+    margin: 0px 722px;
+    border-radius: 20px;
+}
+
+.doctors_area_heading h4 {
+    margin: 0px;
+}
+
+section.doctors_area {
+    margin-top: 75px;
+}
+
+.doctors_heading {
+    text-align: center;
+    font-size: 25px;
+}
+
+.doctors_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.doctors_item {
+    background-color: #eff5ff;
+}
+
+.doctor_img img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.doctor_info {
+    text-align: center;
+}
+
+.doctor_info h4 {
+    font-size: 21px;
+}
+
+.doctor_info p {
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+section.appointment_area {
+    display: flex;
+    margin-top: 80px;
+}
+
+.appointment_left {
+    flex-basis: 50%;
+    margin-left: 50px;
+}
+
+.appointment_form {
+    flex-basis: 50%;
+}
+
+.appointment_area_heading {
+    font-size: 19px;
+    color: gray;
+    border: gray solid 2px;
+    margin-right: 635px;
+    border-radius: 20px;
+}
+
+.appointment_area_heading h4 {
+    margin: 0px 6px;
+    text-transform: capitalize;
+}
+
+.appointment_heading {
+    font-size: 28px;
+}
+
+.appointment_paragraqph {
+    font-size: 19px;
+    margin-right: 45px;
+}
+
+.appointment_img {
+    width: 60px;
+    height: 60px;
+    background: #0463fa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+
+.appointment_call {
+    display: flex;
+    background-color: #eff5ff;
+    height: 130px;
+}
+
+.appointment_mail {
+    display: flex;
+    background-color: #eff5ff;
+    margin-top: 25px;
+    height: 130px;
+}
+
+.appointment_content {
+    margin-right: 59px;
+    margin-top: 45px;
+}
+
+.appointment_content_text {
+    margin-left: 25px;
+}
+
+.appointment_content_text p {
+    margin-top: 36px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.appointment_content_text h4 {
+    margin-top: 10px;
+    font-size: 21px;
+}
