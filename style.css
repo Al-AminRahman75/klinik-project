@@ -9,11 +9,10 @@ section.top_area {
 }
 
 .location {
-    flex-basis: 50%;
     display: flex;
-    margin-top: 10px;
     padding-left: 10px;
     color: gray;
+    width: 29%;
 }
 
 .location img {
@@ -23,15 +22,14 @@ section.top_area {
 }
 
 .time {
-    flex-basis: 50%;
     display: flex;
-    margin-top: 10px;
+    margin-top: 5px;
     color: gray;
 }
 
 .time img {
     height: 25px;
-    margin-top: 12px;
+    margin-top: 7px;
     padding-right: 10px;
 }
 
@@ -39,7 +37,6 @@ section.top_area {
     flex-basis: 50%;
     display: flex;
     flex-direction: row;
-    margin-top: 7px;
 }
 
 .call_top {
@@ -54,7 +51,6 @@ section.top_area {
     margin-top: 15px;
 }
 
-
 .social_top {flex-basis: 26%;}
 
 .social_top ul {
@@ -67,16 +63,11 @@ section.top_area {
     padding-right: 10px;
 }
 
-
 .social_top img {
-    height: 22px;
-}
-section.nav_bar {
-    display: flex;
+    height: 21px;
 }
 
-nav.navbar ul {
-    list-style: none;
+section.nav_bar {
     display: flex;
 }
 
@@ -87,17 +78,41 @@ nav.navbar ul {
     margin: 0px;
 }
 
-nav.navbar a {font-size: 20px;padding: 15px;text-decoration: none;}
+nav.navbar {
+    padding-left: 820px;
+}
+
+nav.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+nav.navbar a {
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav.navbar select {
+    font-size: 17px;
+    border: none;
+    color: #0463fa;
+    margin-top: 2px;
+    width: 71px;
+}
 
 .appointment_btn a {
     display: flex;
-    background: royalblue;
+    background: #0463fa;
     height: 55px;
+    text-decoration: none;
+    width: 155px;
 }
 
 .appointment_btn p {
     font-size: 18px;
     margin-top: 16px;
+    margin-left: 20px;
 }
 
 .appointment_btn img {
@@ -105,8 +120,6 @@ nav.navbar a {font-size: 20px;padding: 15px;text-decoration: none;}
     margin-top: 15px;
     padding-left: 10px;
 }
-
-nav.navbar {padding-left: 820px;}
 
 section.main_area {display: flex;}
 
